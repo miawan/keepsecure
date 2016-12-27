@@ -1,0 +1,28 @@
+<!--
+
+  {{title}}
+<hr/>
+{{courses}}
+{{authors}}
+
+
+  <ul class="list-group">
+    <h1>list of Courses</h1>
+    <li *ngFor=" let course of courses">
+      {{ course }}
+    </li>
+
+    <h1>list of Authors</h1>
+    <li *ngFor=" let author of authors">
+      {{ author }}
+    </li>
+
+  </ul>
+-->
+<bk-navbar></bk-navbar>
+<div class="main">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+    <!--<bk-contact-form></bk-contact-form>-->
